@@ -1,4 +1,4 @@
-# SkyEar ⚡📻
+# SkyEar
 
 **A pocket radio that listens to lightning thousands of miles away.**
 
