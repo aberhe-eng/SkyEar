@@ -2080,7 +2080,7 @@
 				(font (size 1.27 1.27))
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
+		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q"
 			(at 60.96 40.64 0)
 			(effects
 				(font (size 1.27 1.27))
@@ -2101,7 +2101,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C&K OS102011MS2QN1"
+		(property "MPN" "C&K OS102011MA1QN1 (right-angle)"
 			(at 60.96 40.64 0)
 			(effects
 				(font (size 1.27 1.27))
