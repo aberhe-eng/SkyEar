@@ -1,37 +1,36 @@
-Refs,Qty,Description,Manufacturer,MPN,Vendor,Vendor PN,Unit price (USD),Line total (USD)
-R1,2,RES 4.7K OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-4K7,DigiKey,MFR-25FBF52-4K7-ND,0.11,0.22
-"R2,R3,R4,R10,R11",10,RES 10K OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-10K,DigiKey,10.0KXBK-ND,0.042,0.42
-R5,2,RES 10M OHM 5% 1/4W AXIAL,Stackpole,CF14JT10M0,DigiKey,CF14JT10M0CT-ND,0.1,0.20
-R6,2,RES 18K OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-18K,DigiKey,MFR-25FBF52-18K-ND,0.1,0.20
-R7,2,RES 36K OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-36K,DigiKey,13-MFR-25FBF52-36K-ND,0.1,0.20
-"R8,R13",3,RES 100K OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-100K,DigiKey,100KXBK-ND,0.1,0.30
-R9,2,RES 3.3K OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-3K3,DigiKey,MFR-25FBF52-3K3-ND,0.1,0.20
-R12,2,RES 1K OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-1K,DigiKey,1.00KXBK-ND,0.1,0.20
-R14,2,RES 10 OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-10R,DigiKey,10.0XBK-ND,0.1,0.20
-R15,2,RES 47 OHM 1% 1/4W AXIAL,YAGEO,MFR-25FBF52-47R,DigiKey,MFR-25FBF52-47R-ND,0.1,0.20
-"C1,C16",3,CAP ALUM 100UF 20% 25V RADIAL TH,Panasonic,ECA-1EM101I,DigiKey,10-ECA-1EM101ICT-ND,0.35,1.05
-"C2,C4,C15,C19,C20",10,CAP CER 0.1UF 50V X7R RADIAL,TDK,FG28X7R1H104KNT00,DigiKey,445-FG28X7R1H104KNT00-ND,0.135,1.35
-C3,2,CAP ALUM 47UF 20% 50V RADIAL TH,Panasonic,ECA-1HM470,DigiKey,P5181-ND,0.33,0.66
-"C5 (not fitted, spare)",1,CAP CER 22PF 100V C0G RADIAL,TDK,FG28C0G2A220JNT00,DigiKey,445-175549-ND,0.26,0.26
-"C6,C7",3,CAP CER 10000PF 50V C0G RADIAL,TDK,FG28C0G1H103JNT00,DigiKey,FG28C0G1H103JNT00-ND,0.35,1.05
-C8,2,CAP CER 150PF 50V C0G RADIAL,TDK,FG28C0G1H151JNT00,DigiKey,445-181753-ND,0.22,0.44
-"C9,C13",3,CAP CER 1UF 25V X7R RADIAL,TDK,FG28X7R1E105KRT00,DigiKey,445-181761-ND,0.31,0.93
-C10,2,CAP CER 2200PF 50V C0G RADIAL,TDK,FG28C0G1H222JNT00,DigiKey,445-FG28C0G1H222JNT00-ND,0.27,0.54
-C11,2,CAP CER 1000PF 50V C0G RADIAL,TDK,FG28C0G1H102JNT00,DigiKey,445-FG28C0G1H102JNT00-ND,0.25,0.50
-"C12,C14",3,CAP ALUM 10UF 20% 50V RADIAL TH,KEMET,ESK106M050AC3AA,DigiKey,399-6599-ND,0.19,0.57
-C17,2,CAP CER 0.047UF 50V X7R RADIAL,TDK,FG28X7R1H473KNT00,DigiKey,445-FG28X7R1H473KNT00-ND,0.23,0.46
-C18,2,CAP ALUM 220UF 20% 25V RADIAL TH,Nichicon,UVZ1E221MPD,DigiKey,493-1302-ND,0.44,0.88
-D1,2,DIODE SCHOTTKY 20V 1A AXIAL,onsemi,1N5817G,DigiKey,1N5817GOS-ND,0.67,1.34
-D2,2,LED RED DIFFUSED T-1 3/4 T/H,Kingbright,WP7113ID,DigiKey,754-1264-ND,0.21,0.42
-"D3,D4",4,DIODE STANDARD 100V 200MA DO35,onsemi,1N4148,DigiKey,1N4148FS-ND,0.1,0.40
-"U1,U2",3,IC OP AMP 2CH 8-PDIP,Texas Instruments,TL072ACP,DigiKey,296-7190-5-ND,1.5,4.50
-U3,2,IC AUDIO AMP AB 8-PDIP,Texas Instruments,LM386N-1/NOPB,DigiKey,296-44414-5-ND,1.18,2.36
-"J1,J2",2,TERM BLK 2P SIDE ENT 5.08MM PCB,Phoenix Contact,1715721,DigiKey,277-1263-ND,1.16,2.32
-J3,1,CONN JACK STEREO 3.5MM R/A,Same Sky (CUI),SJ1-3523N,DigiKey,CP1-3523N-ND,1.12,1.12
-J4,1,CONN HEADER VERT 2POS 2.54MM,Sullins,PREC002SAAN-RC,DigiKey,35-PREC002SAAN-RC-ND,0.1,0.10
-SW1,1,SWITCH SLIDE SPDT 100MA 12V,C&K,OS102011MA1QN1,DigiKey,CKN9559-ND,0.75,0.75
-RV1,1,POT 10K OHM 1/20W LINEAR,Alps Alpine,RK09K1130AP5,DigiKey,4809-RK09K1130AP5-ND,1.7,1.70
-Battery clip (off-board),1,"BATT CONNECTOR SNAP 9V 4"" LEADS",Keystone,232,DigiKey,36-232-ND,0.66,0.66
-Sockets for U1-U3,3,CONN IC DIP SOCKET 8POS TIN,Mill-Max,110-44-308-41-001000,DigiKey,ED90048-ND,0.99,2.97
-PCB,5,"SkyEar PCB v1.0, 2 layers, 1.6 mm, ~80 x 60 mm",JLCPCB,,JLCPCB,,,TBD (quote after layout)
-Off-board,1,Antenna wire (1-2 m) and ground stake,,,already owned,,,0
+Part,Qty,Unit price (USD),Total (USD),Vendor,Link,Refs,Manufacturer,MPN,Vendor PN
+Resistor 4.7k ohm 1/4W - YAGEO MFR-25FBF52-4K7,2,0.11,0.22,DigiKey,https://www.digikey.com/en/products/result?keywords=MFR-25FBF52-4K7-ND,R1,YAGEO,MFR-25FBF52-4K7,MFR-25FBF52-4K7-ND
+Resistor 10k ohm 1/4W - YAGEO MFR-25FBF52-10K,10,0.042,0.42,DigiKey,https://www.digikey.com/en/products/result?keywords=10.0KXBK-ND,"R2,R3,R4,R10,R11",YAGEO,MFR-25FBF52-10K,10.0KXBK-ND
+Resistor 10M ohm (10 megohm) 1/4W - Stackpole CF14JT10M0,2,0.10,0.20,DigiKey,https://www.digikey.com/en/products/result?keywords=CF14JT10M0CT-ND,R5,Stackpole,CF14JT10M0,CF14JT10M0CT-ND
+Resistor 18k ohm 1/4W - YAGEO MFR-25FBF52-18K,2,0.10,0.20,DigiKey,https://www.digikey.com/en/products/result?keywords=MFR-25FBF52-18K-ND,R6,YAGEO,MFR-25FBF52-18K,MFR-25FBF52-18K-ND
+Resistor 36k ohm 1/4W - YAGEO MFR-25FBF52-36K,2,0.10,0.20,DigiKey,https://www.digikey.com/en/products/result?keywords=13-MFR-25FBF52-36K-ND,R7,YAGEO,MFR-25FBF52-36K,13-MFR-25FBF52-36K-ND
+Resistor 100k ohm 1/4W - YAGEO MFR-25FBF52-100K,3,0.10,0.30,DigiKey,https://www.digikey.com/en/products/result?keywords=100KXBK-ND,"R8,R13",YAGEO,MFR-25FBF52-100K,100KXBK-ND
+Resistor 3.3k ohm 1/4W - YAGEO MFR-25FBF52-3K3,2,0.10,0.20,DigiKey,https://www.digikey.com/en/products/result?keywords=MFR-25FBF52-3K3-ND,R9,YAGEO,MFR-25FBF52-3K3,MFR-25FBF52-3K3-ND
+Resistor 1k ohm 1/4W - YAGEO MFR-25FBF52-1K,2,0.10,0.20,DigiKey,https://www.digikey.com/en/products/result?keywords=1.00KXBK-ND,R12,YAGEO,MFR-25FBF52-1K,1.00KXBK-ND
+Resistor 10 ohm 1/4W - YAGEO MFR-25FBF52-10R,2,0.10,0.20,DigiKey,https://www.digikey.com/en/products/result?keywords=10.0XBK-ND,R14,YAGEO,MFR-25FBF52-10R,10.0XBK-ND
+Resistor 47 ohm 1/4W - YAGEO MFR-25FBF52-47R,2,0.10,0.20,DigiKey,https://www.digikey.com/en/products/result?keywords=MFR-25FBF52-47R-ND,R15,YAGEO,MFR-25FBF52-47R,MFR-25FBF52-47R-ND
+Electrolytic capacitor 100uF 25V - Panasonic ECA-1EM101I,3,0.35,1.05,DigiKey,https://www.digikey.com/en/products/result?keywords=10-ECA-1EM101ICT-ND,"C1,C16",Panasonic,ECA-1EM101I,10-ECA-1EM101ICT-ND
+Ceramic capacitor 100nF 50V - TDK FG28X7R1H104KNT00,10,0.135,1.35,DigiKey,https://www.digikey.com/en/products/result?keywords=445-FG28X7R1H104KNT00-ND,"C2,C4,C15,C19,C20",TDK,FG28X7R1H104KNT00,445-FG28X7R1H104KNT00-ND
+Electrolytic capacitor 47uF 50V - Panasonic ECA-1HM470,2,0.33,0.66,DigiKey,https://www.digikey.com/en/products/result?keywords=P5181-ND,C3,Panasonic,ECA-1HM470,P5181-ND
+"Ceramic capacitor 22pF 100V (C5 spare, not fitted) - TDK FG28C0G2A220JNT00",1,0.26,0.26,DigiKey,https://www.digikey.com/en/products/result?keywords=445-175549-ND,C5,TDK,FG28C0G2A220JNT00,445-175549-ND
+Ceramic capacitor 10nF 50V C0G - TDK FG28C0G1H103JNT00,3,0.35,1.05,DigiKey,https://www.digikey.com/en/products/result?keywords=FG28C0G1H103JNT00-ND,"C6,C7",TDK,FG28C0G1H103JNT00,FG28C0G1H103JNT00-ND
+Ceramic capacitor 150pF 50V C0G - TDK FG28C0G1H151JNT00,2,0.22,0.44,DigiKey,https://www.digikey.com/en/products/result?keywords=445-181753-ND,C8,TDK,FG28C0G1H151JNT00,445-181753-ND
+Ceramic capacitor 1uF 25V - TDK FG28X7R1E105KRT00,3,0.31,0.93,DigiKey,https://www.digikey.com/en/products/result?keywords=445-181761-ND,"C9,C13",TDK,FG28X7R1E105KRT00,445-181761-ND
+Ceramic capacitor 2.2nF 50V C0G - TDK FG28C0G1H222JNT00,2,0.27,0.54,DigiKey,https://www.digikey.com/en/products/result?keywords=445-FG28C0G1H222JNT00-ND,C10,TDK,FG28C0G1H222JNT00,445-FG28C0G1H222JNT00-ND
+Ceramic capacitor 1nF 50V C0G - TDK FG28C0G1H102JNT00,2,0.25,0.50,DigiKey,https://www.digikey.com/en/products/result?keywords=445-FG28C0G1H102JNT00-ND,C11,TDK,FG28C0G1H102JNT00,445-FG28C0G1H102JNT00-ND
+Electrolytic capacitor 10uF 50V - KEMET ESK106M050AC3AA,3,0.19,0.57,DigiKey,https://www.digikey.com/en/products/result?keywords=399-6599-ND,"C12,C14",KEMET,ESK106M050AC3AA,399-6599-ND
+Ceramic capacitor 47nF 50V - TDK FG28X7R1H473KNT00,2,0.23,0.46,DigiKey,https://www.digikey.com/en/products/result?keywords=445-FG28X7R1H473KNT00-ND,C17,TDK,FG28X7R1H473KNT00,445-FG28X7R1H473KNT00-ND
+Electrolytic capacitor 220uF 25V - Nichicon UVZ1E221MPD,2,0.44,0.88,DigiKey,https://www.digikey.com/en/products/result?keywords=493-1302-ND,C18,Nichicon,UVZ1E221MPD,493-1302-ND
+Schottky diode 1N5817 (reverse-battery protection) - onsemi 1N5817G,2,0.67,1.34,DigiKey,https://www.digikey.com/en/products/result?keywords=1N5817GOS-ND,D1,onsemi,1N5817G,1N5817GOS-ND
+Red 5 mm LED (power light) - Kingbright WP7113ID,2,0.21,0.42,DigiKey,https://www.digikey.com/en/products/result?keywords=754-1264-ND,D2,Kingbright,WP7113ID,754-1264-ND
+Diode 1N4148 (antenna input protection) - onsemi 1N4148,4,0.10,0.40,DigiKey,https://www.digikey.com/en/products/result?keywords=1N4148FS-ND,"D3,D4",onsemi,1N4148,1N4148FS-ND
+"TL072 dual JFET op-amp, DIP-8 - Texas Instruments TL072ACP",3,1.50,4.50,DigiKey,https://www.digikey.com/en/products/result?keywords=296-7190-5-ND,"U1,U2",Texas Instruments,TL072ACP,296-7190-5-ND
+"LM386 headphone amplifier, DIP-8 - Texas Instruments LM386N-1/NOPB",2,1.18,2.36,DigiKey,https://www.digikey.com/en/products/result?keywords=296-44414-5-ND,U3,Texas Instruments,LM386N-1/NOPB,296-44414-5-ND
+"2-pin screw terminal 5.08 mm (battery, antenna) - Phoenix Contact 1715721",2,1.16,2.32,DigiKey,https://www.digikey.com/en/products/result?keywords=277-1263-ND,"J1,J2",Phoenix Contact,1715721,277-1263-ND
+3.5 mm headphone jack - Same Sky (CUI) SJ1-3523N,1,1.12,1.12,DigiKey,https://www.digikey.com/en/products/result?keywords=CP1-3523N-ND,J3,Same Sky (CUI),SJ1-3523N,CP1-3523N-ND
+2-pin header 2.54 mm (line out) - Sullins PREC002SAAN-RC,1,0.10,0.10,DigiKey,https://www.digikey.com/en/products/result?keywords=35-PREC002SAAN-RC-ND,J4,Sullins,PREC002SAAN-RC,35-PREC002SAAN-RC-ND
+Slide switch SPDT right-angle (power) - C&K OS102011MA1QN1,1,0.75,0.75,DigiKey,https://www.digikey.com/en/products/result?keywords=CKN9559-ND,SW1,C&K,OS102011MA1QN1,CKN9559-ND
+10k potentiometer (volume) - Alps Alpine RK09K1130AP5,1,1.70,1.70,DigiKey,https://www.digikey.com/en/products/result?keywords=4809-RK09K1130AP5-ND,RV1,Alps Alpine,RK09K1130AP5,4809-RK09K1130AP5-ND
+9V battery snap clip - Keystone 232,1,0.66,0.66,DigiKey,https://www.digikey.com/en/products/result?keywords=36-232-ND,J1,Keystone,232,36-232-ND
+DIP-8 IC socket - Mill-Max 110-44-308-41-001000,3,0.99,2.97,DigiKey,https://www.digikey.com/en/products/result?keywords=ED90048-ND,U1-U3,Mill-Max,110-44-308-41-001000,ED90048-ND
+"SkyEar PCB v1.0: 2-layer FR-4, 1.6 mm, 90 x 64 mm (Gerbers in pcb/gerbers)",5,0.40,2.00,JLCPCB,https://jlcpcb.com/quote,PCB,JLCPCB,,

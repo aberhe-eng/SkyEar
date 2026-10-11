@@ -1,0 +1,73 @@
+** Drc report for skyear.kicad_pcb **
+** Created on 2026-10-11T18:25:50 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 14 DRC violations **
+[lib_footprint_mismatch]: Footprint 'Jack_3.5mm_CUI_SJ1-3523N_Horizontal' does not match copy in library 'Connector_Audio'
+    Local override; warning
+    @(185.5000 mm, 110.0000 mm): Footprint J3
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 122.0000 mm): Segment on Edge.Cuts
+    @(99.8800 mm, 68.3400 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 122.0000 mm): Segment on Edge.Cuts
+    @(109.9200 mm, 78.7400 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(188.0000 mm, 124.0000 mm): Segment on Edge.Cuts
+    @(138.2700 mm, 121.0000 mm): Arc of D2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(188.0000 mm, 124.0000 mm): Segment on Edge.Cuts
+    @(111.7000 mm, 124.0000 mm): Segment of SW1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(188.0000 mm, 124.0000 mm): Segment on Edge.Cuts
+    @(118.0000 mm, 124.0000 mm): Segment of SW1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(190.0000 mm, 107.8000 mm): Segment of J3 on Edge.Cuts
+    @(188.8000 mm, 105.5000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(190.0000 mm, 107.8000 mm): Segment of J3 on Edge.Cuts
+    @(190.0000 mm, 105.5000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(190.0000 mm, 107.8000 mm): Segment of J3 on Edge.Cuts
+    @(190.0000 mm, 107.0000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(190.0000 mm, 112.2000 mm): Segment of J3 on Edge.Cuts
+    @(190.0000 mm, 113.0000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(190.0000 mm, 112.2000 mm): Segment of J3 on Edge.Cuts
+    @(190.0000 mm, 114.5000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(190.0000 mm, 112.2000 mm): Segment of J3 on Edge.Cuts
+    @(191.8000 mm, 113.0000 mm): Segment of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 122.0000 mm): Segment on Edge.Cuts
+    @(99.8800 mm, 95.3400 mm): Segment of J1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.0000 mm, 122.0000 mm): Segment on Edge.Cuts
+    @(109.9200 mm, 105.7400 mm): Segment of J1 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
