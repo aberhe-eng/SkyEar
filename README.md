@@ -6,9 +6,11 @@ Lightning strikes somewhere on Earth dozens of times every second, and every str
 
 I'm building it for [Hack Club Half Life](https://halflife.hackclub.com) (Week 1: PCB design).
 
-![SkyEar block diagram](images/block_diagram.png)
+![SkyEar PCB, 3D view](images/pcb/pcb_3d_angle.png)
 
 ## How it works
+
+![SkyEar block diagram](images/block_diagram.png)
 
 SkyEar is a fully analog circuit: two op-amp chips, one headphone amp chip, and a 9 V battery. The signal goes through it in this order:
 
@@ -33,7 +35,7 @@ The filter cutoffs come from the standard formulas:
 
 ![SkyEar schematic](images/schematic.png)
 
-The full KiCad project is in [`pcb/`](pcb/). Open `pcb/skyear.kicad_pro` in KiCad 8 or newer. A PDF copy is at [`pcb/skyear_schematic.pdf`](pcb/skyear_schematic.pdf).
+The full KiCad project is in [`pcb/`](pcb/). Open `pcb/skyear.kicad_pro` in KiCad 10 (the schematic alone also opens in KiCad 8 and 9). A PDF copy is at [`pcb/skyear_schematic.pdf`](pcb/skyear_schematic.pdf).
 
 ### Block by block
 
@@ -89,6 +91,38 @@ Every part has a footprint assigned:
 
 ![Net classes](images/screenshots/14_net_classes.png)
 
+## PCB
+
+![SkyEar PCB, top view](images/pcb/pcb_3d_top.png)
+
+| | |
+| --- | --- |
+| Size | 90 × 64 mm, 2 layers, 1.6 mm FR-4, 4 × M3 mounting holes |
+| Tracks | 0.3 mm signal, 0.6 mm for +9V and GND, 0.25 mm clearance |
+| Ground | GND pour on both layers, stitched together with vias |
+| Checks | KiCad DRC: **0 errors, 0 unconnected pads, 0 schematic mismatches** ([report](pcb/skyear_drc_report.rpt)) |
+
+The 14 DRC warnings are all expected: 13 are connector bodies (terminal blocks, switch, jack, LED) that hang over the board edge on purpose, and 1 is the headphone jack footprint, whose pin slots were widened from 0.4 mm to 0.6 mm because JLCPCB can't make plated slots narrower than 0.5 mm.
+
+### Layout
+
+- **Signal flows left to right.** Antenna in on the left edge, then the buffer (U1), hum filter, gain stage (U2) and low-pass filter across the top. The headphone amp (U3), volume knob and jack are along the bottom right.
+- **The antenna input is kept tiny.** Everything touching the 10 MΩ input node (R4, R5, D3, D4, C5) sits right next to U1 pin 3, because that node picks up hum if its traces are long.
+- **The headphone amp is far from the input.** The LM386's output (the loudest signal on the board) is in the opposite corner from the antenna, so it can't feed back into the input and squeal.
+- **Every chip has its 100 nF decoupling cap next to its power pin** (C19 for U1, C20 for U2, C15 for U3).
+- **Controls are on the edges.** Battery and antenna terminals on the left, power switch and volume on the bottom, headphone jack and line out on the right.
+- Routed with [Freerouting](https://github.com/freerouting/freerouting), then GND pours on both layers.
+
+| Front copper | Back copper |
+| --- | --- |
+| ![Front of the board as fabricated](images/pcb/gerber_front.png) | ![Back of the board as fabricated](images/pcb/gerber_back.png) |
+
+The front/back images are rendered straight from the Gerber files, so they show exactly what gets manufactured. The 3D views are from KiCad; the volume pot has no 3D model in KiCad's library, so only its pads show.
+
+### Ordering the boards
+
+[`pcb/skyear_gerbers_jlcpcb.zip`](pcb/skyear_gerbers_jlcpcb.zip) is ready to upload at [jlcpcb.com/quote](https://jlcpcb.com/quote) (2 layers, 1.6 mm, 5 pcs, any color). The individual Gerber and drill files are in [`pcb/gerbers/`](pcb/gerbers/). The board file is `pcb/skyear.kicad_pcb` (KiCad 10).
+
 ## Specs
 
 | | |
@@ -98,11 +132,17 @@ Every part has a footprint assigned:
 | Input | Wire antenna + ground stake, 10 MΩ input resistance |
 | Outputs | 3.5 mm headphones (with volume), 2-pin line out |
 | Parts | 100% through-hole, all chips socketed |
-| Board | 2 layers, ~80 × 60 mm, 4 × M3 mounting holes |
+| Board | 2 layers, 90 × 64 mm, 4 × M3 mounting holes |
 
 ## Parts list
 
-[`bom.csv`](bom.csv) has every part with its value, footprint and spec, plus the off-board stuff (battery, antenna, sockets). Prices are being filled in.
+[`bom.csv`](bom.csv) has every part with its quantity, real DigiKey price and part number, plus the PCBs from JLCPCB.
+
+- Parts from DigiKey: **$29.67** (34 lines, including spares of the cheap parts)
+- 5 PCBs from JLCPCB: **$2.00**
+- **Parts total: $31.67**, before tax and shipping. That's inside the Tier 2 budget ($65).
+
+Not on the list: a 9 V battery (any store) and the antenna wire + ground stake (already owned).
 
 There's no firmware: SkyEar is entirely analog.
 
@@ -110,9 +150,9 @@ There's no firmware: SkyEar is entirely analog.
 
 - [x] Circuit design and filter math
 - [x] Schematic (KiCad), 0 errors in the electrical rules check
-- [ ] Price the BOM against the Tier 1 budget
-- [ ] PCB layout and routing
-- [ ] Gerber files for fabrication
+- [x] Price the BOM (Tier 2)
+- [x] PCB layout and routing, 0 DRC errors
+- [x] Gerber files for fabrication
 - [ ] Build week: solder and test
 - [ ] Field test: record real sferics and post the audio here
 
