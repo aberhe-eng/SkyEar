@@ -122,7 +122,3 @@ There's no firmware: SkyEar is entirely analog.
 - **Battery power only.** Never connect it to a wall adapter.
 - **Turn the volume to zero before putting headphones on.**
 - Keep antennas far away from overhead power lines.
-
-## How this was made
-
-I used Claude (AI) to help plan the circuit and to generate the starting schematic from my build guide. I'm checking every block and doing the PCB layout and the build myself.
