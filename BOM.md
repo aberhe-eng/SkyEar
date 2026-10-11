@@ -48,7 +48,7 @@
 | [DIP-8 IC socket - Mill-Max 110-44-308-41-001000](https://www.digikey.com/en/products/result?keywords=ED90048-ND) | — | 3 | $0.99 | $2.97 | [DigiKey](https://www.digikey.com/en/products/result?keywords=ED90048-ND) |
 | [SkyEar PCB v1.0: 2-layer FR-4, 1.6 mm, 90 x 64 mm (Gerbers in pcb/gerbers)](https://jlcpcb.com/quote) | — | 5 | $0.40 | $2.00 | [JLCPCB](https://jlcpcb.com/quote) |
 | **Parts subtotal** | — | — | — | **$31.70** | — |
-| **Tax & shipping** | — | — | — | **$31.70** | — |
-| **Total** | — | — | — | **$63.40** | — |
+| **Tax & shipping** | — | — | — | **$20.00** | — |
+| **Total** | — | — | — | **$51.70** | — |
 
-$1.60 left of the tier's funding.
+$13.30 left of the tier's funding.
