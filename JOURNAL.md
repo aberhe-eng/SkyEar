@@ -4,7 +4,7 @@
 <!-- Generated: 2026-10-11T19:29:52.596Z -->
 
 > [!NOTE]
-> This devlog is mirrored from [Half Life](https://halflife.hackclub.com). Editing it here will not change the platform's copy, and the next sync overwrites this file.
+> This devlog is mirrored from [Half Life](https://halflife.hackclub.com) – [open the project](https://halflife.hackclub.com/projects/cmuwsvtv10air01osvt94v5qg). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
 > A pocket radio that listens to lightning strikes thousands of miles away, plus the eerie whistling sounds lightning makes after bouncing along Earth's magnetic field through space. Basically a phone call from the planet.
 
